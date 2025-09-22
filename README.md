@@ -1,4 +1,17 @@
-DESCRIPTION : 
+TASK SUMMARY : 
+
+This repository contains a Command-Line Interface (CLI) Calculator built using Python. This project was a foundational task that guided me through a full development workflow, from writing code to managing it with Git and GitHub.
+
+My Development Process:-
+1. Project Planning & Scaffolding: I began by defining the core objective and breaking down the problem into smaller, manageable parts. I used functions to encapsulate each operation, promoting a clean, modular, and reusable codebase.
+
+2. Core Implementation: I developed the main application logic using a while loop to create a persistent, interactive session. I implemented conditional statements (if/elif/else) to direct the program's flow based on user choices.
+
+3. Error Handling: To ensure the calculator is reliable, I integrated try-except blocks to catch ValueError for non-numeric input and added a specific check to prevent a ZeroDivisionError. This makes the application more stable and user-friendly.
+
+4. Collaboration & Deployment with GitHub: Finally, I pushed my local repository to GitHub, creating a public-facing project. This step was crucial for showcasing the final product and its code. I also updated this README.md file to provide a clear, detailed overview of the project and my development process, demonstrating my ability to document my work effectively.
+
+CALCULATOR DESCRIPTION : 
 
 This is a robust and user-friendly Command-Line Interface (CLI) Calculator built with Python. Developed as a foundational project, this application demonstrates key programming concepts including modular function design, conditional logic, and effective user input handling.
 
