@@ -39,27 +39,6 @@ Follow these steps to clone the repository and run the calculator on your local 
     python calculator.py
     ```
 
-### Example Session
-
-=== 🧮 Simple CLI Calculator ===
-Operations available: +  -  * /
-Type 'exit' anytime to quit.
-
-👉 Choose operation (+, -, *, /) or 'exit': *
-Enter first number: 10
-Enter second number: 4.5
-✅ Result: 45.0
-
-👉 Choose operation (+, -, *, /) or 'exit': /
-Enter first number: 5
-Enter second number: 0
-✅ Result: ❌ Error! Division by zero is not allowed.
-
-👉 Choose operation (+, -, *, /) or 'exit': exit
-
-👋 Thank you for using the calculator. Goodbye!
-
-
 ## 🛠️ Development Process Summary
 
 This project guided me through a complete, professional development cycle:
