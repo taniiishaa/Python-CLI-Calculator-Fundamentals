@@ -1,31 +1,127 @@
-TASK SUMMARY : 
+# 🧮 Python-CLI-Calculator-Fundamentals
 
-This repository contains a Command-Line Interface (CLI) Calculator built using Python. This project was a foundational task that guided me through a full development workflow, from writing code to managing it with Git and GitHub.
+A robust and user-friendly **Command-Line Interface (CLI) Calculator** built entirely with Python.
 
-My Development Process:-
-1. Project Planning & Scaffolding: I began by defining the core objective and breaking down the problem into smaller, manageable parts. I used functions to encapsulate each operation, promoting a clean, modular, and reusable codebase.
+This project was developed as a foundational exercise to solidify core Python programming principles, focusing on **modular architecture, effective error handling, and building a persistent, interactive application session.**
 
-2. Core Implementation: I developed the main application logic using a while loop to create a persistent, interactive session. I implemented conditional statements (if/elif/else) to direct the program's flow based on user choices.
+## ✨ Key Features
 
-3. Error Handling: To ensure the calculator is reliable, I integrated try-except blocks to catch ValueError for non-numeric input and added a specific check to prevent a ZeroDivisionError. This makes the application more stable and user-friendly.
+* **Clean and Modular Code:** Arithmetic operations (add, subtract, multiply, divide) are encapsulated in separate functions, promoting **readability and reusability**.
+* **Robust Error Handling:** Implements **`try-except` blocks** to gracefully manage:
+    * **`ValueError`**: Catches non-numeric input from the user.
+    * **`ZeroDivisionError`**: A specific safeguard is implemented in the `divide` function to prevent application crashes.
+* **Persistent Session:** The application runs in a continuous `while` loop, allowing for multiple, seamless calculations without needing a restart.
+* **User-Controlled Exit:** Users can terminate the program easily at any time by typing `exit`.
+* **Intuitive CLI:** Guides the user with clear prompts for operation selection and numerical input.
 
-4. Collaboration & Deployment with GitHub: Finally, I pushed my local repository to GitHub, creating a public-facing project. This step was crucial for showcasing the final product and its code. I also updated this README.md file to provide a clear, detailed overview of the project and my development process, demonstrating my ability to document my work effectively.
+## 🚀 Getting Started
 
-CALCULATOR DESCRIPTION : 
+Follow these steps to clone the repository and run the calculator on your local machine.
 
-This is a robust and user-friendly Command-Line Interface (CLI) Calculator built with Python. Developed as a foundational project, this application demonstrates key programming concepts including modular function design, conditional logic, and effective user input handling.
+### Prerequisites
 
-The application operates in a continuous loop, providing a seamless and interactive experience for the user. It accurately performs essential arithmetic operations—addition, subtraction, multiplication, and division—while incorporating best practices such as exception handling to manage invalid inputs and a specific safeguard against division by zero errors.
+* Python 3.x installed on your system.
 
-Key Features :-
-1. Clean and Modular Code: Each arithmetic function is defined separately, promoting readability and reusability.
+### Installation & Execution
 
-2. Intuitive CLI: The interface is simple to navigate, guiding the user with clear prompts for operation selection and numerical input.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git](https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git)
+    ```
 
-3. Robust Error Handling: The program gracefully handles non-numeric input and prevents crashes from common errors like division by zero.
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Python-CLI-Calculator-Fundamentals
+    ```
 
-4. Persistent Session: The application runs in a while loop, allowing for multiple calculations without needing to be restarted.
+3.  **Run the calculator script:**
+    ```bash
+    python calculator.py
+    ```
 
-5. User-Controlled Exit: Users can easily terminate the program at any time by typing exit.
+### Example Session
+This is excellent, clean, and functional code!
 
-This project serves as a solid example of building a practical and reliable application from the ground up, showcasing proficiency in fundamental Python programming principles.
+Here is a complete, copy-paste-ready package for your repository, including the name, description, and a professional README.md file that incorporates Git instructions and highlights your code's quality.
+
+🌟 Repository Details
+Item	Value
+Name	Python-CLI-Calculator-Fundamentals
+Description	Robust, well-documented CLI Calculator in Python. A foundational project demonstrating modular design, robust error handling (ZeroDivision, ValueError), and a persistent, interactive session built with best-practice conditional logic.
+
+Export to Sheets
+📝 README.md (Copy & Paste)
+Markdown
+
+# 🧮 Python-CLI-Calculator-Fundamentals
+
+A robust and user-friendly **Command-Line Interface (CLI) Calculator** built entirely with Python.
+
+This project was developed as a foundational exercise to solidify core Python programming principles, focusing on **modular architecture, effective error handling, and building a persistent, interactive application session.**
+
+## ✨ Key Features
+
+* **Clean and Modular Code:** Arithmetic operations (add, subtract, multiply, divide) are encapsulated in separate functions, promoting **readability and reusability**.
+* **Robust Error Handling:** Implements **`try-except` blocks** to gracefully manage:
+    * **`ValueError`**: Catches non-numeric input from the user.
+    * **`ZeroDivisionError`**: A specific safeguard is implemented in the `divide` function to prevent application crashes.
+* **Persistent Session:** The application runs in a continuous `while` loop, allowing for multiple, seamless calculations without needing a restart.
+* **User-Controlled Exit:** Users can terminate the program easily at any time by typing `exit`.
+* **Intuitive CLI:** Guides the user with clear prompts for operation selection and numerical input.
+
+## 🚀 Getting Started
+
+Follow these steps to clone the repository and run the calculator on your local machine.
+
+### Prerequisites
+
+* Python 3.x installed on your system.
+
+### Installation & Execution
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git](https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Python-CLI-Calculator-Fundamentals
+    ```
+
+3.  **Run the calculator script:**
+    ```bash
+    python calculator.py
+    ```
+
+### Example Session
+
+=== 🧮 Simple CLI Calculator ===
+Operations available: +  -  * /
+Type 'exit' anytime to quit.
+
+👉 Choose operation (+, -, *, /) or 'exit': *
+Enter first number: 10
+Enter second number: 4.5
+✅ Result: 45.0
+
+👉 Choose operation (+, -, *, /) or 'exit': /
+Enter first number: 5
+Enter second number: 0
+✅ Result: ❌ Error! Division by zero is not allowed.
+
+👉 Choose operation (+, -, *, /) or 'exit': exit
+
+👋 Thank you for using the calculator. Goodbye!
+
+
+## 🛠️ Development Process Summary
+
+This project guided me through a complete, professional development cycle:
+
+1.  **Architecture:** Defined core functions (`add`, `subtract`, `multiply`, `divide`) for a highly **modular and reusable codebase**.
+2.  **Core Logic:** Built the main application using a **persistent `while` loop** and **conditional logic** to manage the interactive session and operation routing.
+3.  **Defensive Programming:** Integrated robust **exception handling** to ensure application stability against invalid inputs (`ValueError`) and critical runtime issues (`ZeroDivisionError`).
+4.  **Version Control:** Managed the codebase using Git and deployed the final product to GitHub, demonstrating proficiency in standard **development and deployment workflows**.
+
+---
