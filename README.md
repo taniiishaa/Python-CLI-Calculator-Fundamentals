@@ -26,7 +26,7 @@ Follow these steps to clone the repository and run the calculator on your local 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git](https://github.com/YOUR_USERNAME/Python-CLI-Calculator-Fundamentals.git)
+    git clone [https://github.com/taniishaa/Python-CLI-Calculator-Fundamentals.git](https://github.com/taniiishaa/Python-CLI-Calculator-Fundamentals.git)
     ```
 
 2.  **Navigate to the project directory:**
